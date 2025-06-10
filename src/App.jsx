@@ -17,8 +17,6 @@ import AuthenticatedRoutesComponent from './routes/AuthenticatedRoutes';
 import Home from './pages/Home';
 import { useEffect } from 'react';
 import { MainContent } from './context/MainContent';
-
-import { useSelector } from 'react-redux';
 import AdminLogin from './pages/Admin/AdminLogin';
 
 function App() {
