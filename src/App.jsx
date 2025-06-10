@@ -1,17 +1,17 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import MainLayout from './layouts/MainLayout';
-import ProtectedRoute from './Components/ProtectedRoute';
-import PublicRoute from './Components/PublicRoute';
-import Login from './pages/Login';
-import Register from './pages/Register';
-import ForgotPassword from './pages/ForgotPassword';
-import ProductPage from './pages/ProductPage';
-import BlogPge from './pages/BlogPge';
-import ContectPage from './pages/ContectPage';
+import MainLayout from './layouts/MainLayout.jsx';
+import ProtectedRoute from './Components/ProtectedRoute.jsx';
+import PublicRoute from './Components/PublicRoute.jsx';
+import Login from './pages/Login.jsx';
+import Register from './pages/Register.jsx';
+import ForgotPassword from './pages/ForgotPassword.jsx';
+import ProductPage from './pages/ProductPage.jsx';
+import BlogPge from './pages/BlogPge.jsx';
+import ContectPage from './pages/ContectPage.jsx';
 
 
 
-import { AuthProvider } from './context/AuthContext';
+import { AuthProvider } from './context/AuthContext.js';
 import { AuthRoutes } from './context/Routes';
 import AuthenticatedRoutesComponent from './routes/AuthenticatedRoutes';
 import Home from './pages/Home';

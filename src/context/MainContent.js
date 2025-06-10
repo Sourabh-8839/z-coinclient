@@ -19,10 +19,12 @@ export const backendConfig = {
   // origin: "http://192.168.1.70:6074",
   // base: "http://192.168.1.59:6074/api",
   // origin: "http://192.168.1.59:6074",
-  base: " http://192.168.85.24:6074/api",
-  origin: " http://192.168.85.24:6074",
-  // base: "https://api.prestorix.com/api",
-  // origin: "https://api.prestorix.com",
+  // base: " http://192.168.85.24:6074/api",
+  // origin: " http://192.168.85.24:6074",
+
+  
+  base: "https://z-coin.onrender.com/api",
+  origin: "https://z-coin.onrender.com/",
 };
 
 
